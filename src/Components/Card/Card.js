@@ -1,19 +1,10 @@
 import React from 'react'
 
 import './Card.css'
-import backlogIcon from '../../icons/Backlog.svg'
-import cancelledIcon from '../../icons/Cancelled.svg'
-import threeDotMenuIcon from '../../icons/3 dot menu.svg';
-import addIcon from '../../icons/add.svg';
-import displayIcon from '../../icons/Display.svg';
-import doneIcon from '../../icons/Done.svg';
-import downIcon from '../../icons/down.svg';
 import highPriorityIcon from '../../icons/Img - High Priority.svg';
 import lowPriorityIcon from '../../icons/Img - Low Priority.svg';
 import mediumPriorityIcon from '../../icons/Img - Medium Priority.svg';
-import inProgressIcon from '../../icons/in-progress.svg';
 import noPriorityIcon from '../../icons/No-priority.svg';
-import urgentPriorityColorIcon from '../../icons/SVG - Urgent Priority colour.svg';
 import urgentPriorityGreyIcon from '../../icons/SVG - Urgent Priority grey.svg';
 
 export default function Card(props) {
